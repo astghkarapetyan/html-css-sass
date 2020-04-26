@@ -1,0 +1,21 @@
+// urls
+    codingheroes.io/resources
+//end urls
+
+
+transform: translate(-50%,-50%);
+animation-delay: 3s;
+animation-iteration-count: 3;
+animation-timing-function: ease-out;
+
+backface-visibility: hidden;
+
+animation-fill-mode: backwards;
+
+http://prntscr.com/s48dru for rem/em/%;
+http://prntscr.com/s48pn2 -> css parse;
+http://prntscr.com/s4tnmr -> formatting model;
+
+-webkit-background-clip:text ;
+color:transparent;
+skew();
