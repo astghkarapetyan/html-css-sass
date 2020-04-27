@@ -17,5 +17,16 @@ http://prntscr.com/s48pn2 -> css parse;
 http://prntscr.com/s4tnmr -> formatting model;
 
 -webkit-background-clip:text ;
+
 color:transparent;
+
 skew();
+
+perspective: 150rem;
+
+// with image background  radius don't work use overflow
+border-radius: 60px;
+overflow: hidden;
+
+// when element have a padding and its break line
+box-decoration-break: clone;
