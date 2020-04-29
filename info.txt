@@ -1,5 +1,6 @@
 // urls
     codingheroes.io/resources
+    coverr.co site for videos
 //end urls
 
 
@@ -20,9 +21,9 @@ http://prntscr.com/s4tnmr -> formatting model;
 
 color:transparent;
 
-skew();
+skew(); rotate
 
-perspective: 150rem;
+perspective: 150rem; for rotate card
 
 // with image background  radius don't work use overflow
 border-radius: 60px;
@@ -30,3 +31,7 @@ overflow: hidden;
 
 // when element have a padding and its break line
 box-decoration-break: clone;
+
+shape-outside:circle(50% at 50% 50%);
+clip-path:circle(50% at 50% 50%);
+object-fit: cover;
